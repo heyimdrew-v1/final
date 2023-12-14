@@ -1,0 +1,63 @@
+/* Reset some default styles and apply a light blue and white color scheme */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font for a clean and modern look */
+    background-color: #f4f8fd; /* Light blue background */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    background-color: #fff; /* White container background */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding: 30px;
+    margin: 20px auto; /* Center the container and add spacing */
+    max-width: 800px; /* Limit container width for better readability */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #3498db; /* Light blue header text color */
+    margin-bottom: 15px;
+}
+
+.author-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #3498db; /* Light blue section header text color */
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+img.featured-image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Slightly more prominent image shadow */
+    margin-bottom: 20px;
+}
