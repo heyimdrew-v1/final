@@ -1,0 +1,24 @@
+Using browser development tools, I was able to make an analysis of the website metrics such as site performance, memory usage, and security. 
+
+ 
+
+Site Performance:
+
+According to our site performance, it seems everything is running smoothly. The website isn’t overloading which is good and expected because of the content on the website, the things the website does do such as use the jQuery animations, they do without a problem, and everything runs fast. The website seems to be in good health performance wise, and that is to be expected since it’s not a website that has a bunch of complex coding and a ton of animations and stuff like that. 
+
+
+Memory Usage:
+After taking a snapchat of the website, it seems our memory looks about as we would expect it too. The compiled code takes the cake for the most memory being used with 29% shallow size and 41% retained size, with objects taking up the second most memory usage at least in retained size. The strings take up 20% of both shallow and retained size, closure takes up 7% shallow and 19% retained, and arrays take up about 15% or more of each size. 
+
+
+Lighthouse:
+I decided to run a lighthouse to see a better view of our website, and after running it our performance does seem to run good (89/100), with accessiblity being a 92/100, best practices being 95/100, and SEO being 83/100. However we could use some improvements within the SEO. I took a look at the diagnostics tab to see what is giving us some trouble, and I found that I should avoid large layout shifts, referring to my section#program-description and required-courses in my code. It appears I could have better performance by avoiding using these sections, which I will conisder going forward. The next problem says that we should eliminate render-blocking resources, and when I clicked on the drop down arrow it was referring to my link of the jQuery library which obviously I had to use in order to complete this assignment. Lastly, it told me to minify my javascript, which I am not fully sure what that means but I assume it means reduce my code to something more simple? 
+
+Overall, this helped me understand my website a little better and would allow me to make the improvements necessary for better performance by giving me solid feedback and even providing me with a diagnosis to the problems. 
+
+
+Security:
+This one is pretty straight forward and simple, our page is secure because we ran it through GitHub pages, which means it has a stable connection, a valid HTTPS, and all the resources all served securely. As for security, we don’t really have anything to worry about here, which is a good feeling to have when making a public website. 
+
+
+In conclusion, it seems are website is running how we want it, with a few problems but nothing major to the performance and SEO that could be fixed if needed. Our website is secure, the performance runs great with what we need it to run, with some minor improvements that could be made, the memory usage seems to be fine by not using too much memory, which is expected with how simplistic the website is. The overall site does it job and does it well, the only things to change would be to look into some of the diagnosis the lighthouse tool recommends for us, which is always something to consider if it means our website could perform better. However, most of the things we added we need, but it was nice to see what could potentially be holding back our website. 
